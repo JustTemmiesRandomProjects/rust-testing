@@ -29,6 +29,6 @@ fn main() {
         }
     }
 
-    println!("arguments: {:?}", args);
+    // println!("arguments: {:?}", args);
 }
 
