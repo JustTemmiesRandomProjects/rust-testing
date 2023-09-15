@@ -13,7 +13,7 @@ fn main() {
 
         io::stdin()
             .read_line(&mut guess)
-            .expect("failed to read input :(");
+            .expect("failed to read input :(\nwhat the fuck did you do??!? ;-;");
 
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
